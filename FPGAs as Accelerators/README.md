@@ -2,7 +2,7 @@
 
 This project is a part of ECE 340 Embedded Systems course at University of Thessaly
 
-We present 2 versions of the C code for the same [algorithm](https://github.com/ChrysoulaStrifti/Embedded-Systems-FPGA-Acceleration/edit/main/README.md#explaining-the-algorithm). The [software implementation](https://github.com/ChrysoulaStrifti/Embedded-Systems-FPGA-Acceleration/blob/main/lsal_sw.c) was profiled with CPU performance in mind, while the [hardware implementation](https://github.com/ChrysoulaStrifti/Embedded-Systems-FPGA-Acceleration/blob/main/lsal_hw.cpp) was run in Xilinx Zedboard FPGA. 
+We present 2 versions of the C code for the same [algorithm](https://github.com/EleniXoch/Embedded-Systems/blob/main/FPGAs%20as%20Accelerators/README.md#explaining-the-algorithm). The [software implementation](https://github.com/EleniXoch/Embedded-Systems/blob/main/FPGAs%20as%20Accelerators/lsal_sw.c) was profiled with CPU performance in mind, while the [hardware implementation](https://github.com/EleniXoch/Embedded-Systems/blob/main/FPGAs%20as%20Accelerators/lsal_hw.cpp) was run in Xilinx Zedboard FPGA. 
 
 An OpenCL-based host unit was responsible for all the data management and the configuring the hardware accelerator. It was also used to verify the correct algorithm execution by blocking, waiting and checking the result. 
 
